@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+.stopwatch-container {
+  width: 300px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent background color */
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.time {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  margin-bottom: 10px; /* Added margin between buttons and default button */
+}
+
+.buttons button {
+  font-size: 18px;
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: transparent; /* Transparent background for buttons */
+  color: white; /* Font color */
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white on hover */
+  border-radius: 10px;
+}
+
+.default-button {
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 2px solid #ffffff; /* White border */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  color: white; /* Font color */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.default-button:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white on hover */
+}
